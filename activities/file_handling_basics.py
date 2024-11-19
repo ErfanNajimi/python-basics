@@ -22,9 +22,9 @@ except FileNotFoundError:
 
 # Improvement - using context manger
 
-try: 
-    with open(file_path) as file:
-        content = file.read()
-        print(content)
-except: 
+# try: 
+#     with open(file_path) as file:
+#         content = file.read()
+#         print(content)
+# except: 
 
