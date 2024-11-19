@@ -20,3 +20,11 @@ try:
 except FileNotFoundError:
     print('File does not exist!')
 
+# Improvement - using context manger
+
+try: 
+    with open(file_path) as file:
+        content = file.read()
+        print(content)
+except: 
+
